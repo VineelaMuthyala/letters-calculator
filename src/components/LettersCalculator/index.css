@@ -1,0 +1,55 @@
+@media (min-width: 992px) {
+  .bg-container {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    font-family: 'roboto';
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 400px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .text {
+    font-size: 10px;
+  }
+  .input {
+    color: #e4e7eb;
+    font-size: 10px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+  }
+  .count-container {
+    background-color: white;
+    color: #219a6f;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 35px;
+    border-radius: 7px;
+  }
+  .image {
+    height: 250px;
+    width: 300px;
+  }
+}
